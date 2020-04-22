@@ -8,7 +8,6 @@
 
 import discord
 from discord.ext import commands
-import os
 
 # INIT 
 
@@ -60,14 +59,6 @@ async def unban(ctx, *, member):
 			await ctx.guild.unban(user)
 			await ctx.send(f'Unbanned {user.mention}')
 			return
-
-@client.command()
-async def load(ctx, extension):
-	client.load_extension(f'cogs.{extension}')
- 																		# Load & Unload
-@client.command()
-async def unload(ctx, extension):
-	client.unload_extension(f'cogs.{extension}')
 
 
 # Run
