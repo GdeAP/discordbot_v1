@@ -72,4 +72,4 @@ async def unload(ctx, extension):
 
 # Run
 
-client.run('NzAyMTM5MTA1Mjk4ODc0NDQ5.Xp7sIQ.CVOMEw-OtWm2u1NaTsfqyeyHeLc') 	# Token
+client.run('Your token') 	# Token(Write your token here)
